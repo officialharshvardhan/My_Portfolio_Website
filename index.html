@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Vardhan|Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!--  2nd link is for icon embedment in download cv button-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <!--This is for css animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--skills animation javascript-->
+    <script defer src="skills-animation.js"></script>
+</head>
+
+<body>
+    <header class="navbar" data-aos="flip-down">
+        <div class="container">
+            <a href="#home" class="logo" data-aos="slide-down">Harsh Vardhan</a>
+            <span class="menu-toggle">☰</span>
+            <ul class="nav-links" data-aos="zoom-in">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#languages-tools">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="home" class="home-section" data-aos="fade-down">
+        <div class="intro" data-aos="slide-right">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Harsh Vardhan, a passionate website developer.</p>
+            <button class="cv-button" onclick="downloadCV()"><i class="fa-solid fa-circle-down"></i> Download
+                CV</button>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="sub-heading-div">
+                <h1 class="sub-heading-txt" data-aos="fade-down">About Me</h1>
+            </div>
+            <div class="about-content">
+                <img src="images/profile photo.png" alt="Profile Image" class="profile-img" data-aos="slide-right">
+                <p class="my-content" data-aos="slide-left">I’m a passionate Frontend Developer with a keen eye for
+                    design and a love for creating intuitive, user-friendly websites. <br>I specialize in HTML, CSS, and
+                    JavaScript, transforming ideas into beautiful, functional web experiences.<br> Driven by the latest
+                    trends and technologies, I strive to make the web accessible and engaging for everyone.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- education section  -->
+    <section class="education-section">
+        <div class="sub-heading-div">
+            <h1 class="sub-heading-txt" data-aos="zoom-in">Education</h2>
+        </div>
+            <div class="education-timeline">
+                <div class="edu-container">
+                    <img src="images/glbajajlogo.jpg" data-aos="zoom-in">
+                    <div class="edu-text" data-aos="slide-left">
+                        <h1>G.L. Bajaj Institute of Technology and Management.</h1>
+                        <small>2022-2026</small>
+                        <p>Tech-savvy student at GL Bajaj, blending creativity with code. Passionate about web
+                            development and data analytics, I'm crafting innovative solutions for the digital world.</p>
+                        <span class="arrow"></span>
+                    </div>
+                </div>
+                <div class="edu-container">
+                    <img src="images/bkschool.jpeg" data-aos="zoom-in">
+                    <div class="edu-text"  data-aos="slide-left">
+                        <h1>B.K. Sr Sec School.</h1>
+                        <small>2021-2022</small>
+                        <p>School life is a canvas of learning and laughter, where each day brings new challenges and
+                            adventures. It’s a place where friendships bloom, creativity thrives, and dreams start to
+                            take shape.</p>
+                        <span class="arrow"></span>
+                    </div>
+                </div>
+                <div class="edu-container">
+                    <img src="images/bkschool.jpeg" data-aos="zoom-in">
+                    <div class="edu-text"  data-aos="slide-left">
+                        <h1>B.K. Sr Sec School.</h1>
+                        <small>2019-2020</small>
+                        <p>10th grade was a pivotal year, filled with academic challenges and personal growth. It was a
+                            time of intense learning, where I discovered my strengths and built lifelong friendships.
+                        </p>
+                        <span class="arrow"></span>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- skills section  -->
+
+    <section id="skills" class="skills-section scrl">
+        <div class="container">
+            <div class="sub-heading-div">
+                <h1 class="sub-heading-txt" data-aos="zoom-in">My Skills</h1>
+            </div>
+            <div data-aos="fade-up">
+                <div class="skill">
+                    <h3 class="sk">Communication</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-value="90"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3 class="sk">Leadership</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-value="75"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3 class="sk">DSA(Problem Solving)</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-value="50"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3 class="sk">Web Designing</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-value="65"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more skills as needed -->
+        </div>
+    </section>
+    <!--Animation and tool -->
+    <section id="languages-tools" class="languages-tools-section scrl">
+        <div class="container" data-aos="fade-down">
+            <div class="sub-heading-div">
+                <h1 class="sub-heading-txt" data-aos="zoom-in-up">Languages & Tools</h1>
+            </div>
+            <div class="languages-tools-grid" data-aos="zoom-in-up">
+                <div class="language-tool">
+                    <i class="fa-brands fa-java"></i>
+                    <p>Java</p>
+                </div>
+                <div class="language-tool">
+                    <i class="fa-brands fa-python"></i>
+                    <p>Python</p>
+                </div>
+                <div class="language-tool">
+                    <i class="fab fa-html5"></i>
+                    <p>HTML5</p>
+                </div>
+                <div class="language-tool">
+                    <i class="fab fa-css3-alt"></i>
+                    <p>CSS3</p>
+                </div>
+                <div class="language-tool">
+                    <i class="fab fa-js"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="language-tool">
+                    <i class="fab fa-git"></i>
+                    <p>Git</p>
+                </div>
+                <div class="language-tool">
+                    <i class="fab fa-github"></i>
+                    <p>GitHub</p>
+                </div>
+                <div class="language-tool">
+                    <i class="fa-brands fa-node-js"></i>
+                    <p>Node.js</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="sub-heading-txt">Services</h2>
+            <div class="services-grid">
+                <div class="service" data-aos="zoom-out">
+                    <h3>Web Development</h3>
+                    <p>Creating responsive and dynamic websites tailored to your needs.</p>
+                </div>
+                <div class="service" data-aos="zoom-out">
+                    <h3>UI/UX Design</h3>
+                    <p>Designing user-friendly interfaces that provide a great user experience.</p>
+                </div>
+                <div class="service" data-aos="zoom-out">
+                    <h3>Java code Debug</h3>
+                    <p>Beginner in debugging Java code, learning to identify and fix common errors. Eager to develop skills and improve code efficiency over time.</p>
+                </div>
+                <div class="service" data-aos="zoom-out">
+                    <h3>Python GUI</h3>
+                    <p>Python GUI service provider specializing in creating custom, user-friendly interfaces for diverse applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="container" data-aos="fade-down">
+            <div class="sub-heading-div">
+                <h1 class="sub-heading-txt" data-aos="zoom-out ">Portfolio</h1>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-aos="slide-right">
+                    <img src="images/calculator.png" alt="Project 1">
+                    <div class="overlay">
+                        <h3>Project 1</h3>
+                        <p>Description of Project 1.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="slide-left">
+                    <img src="images/Notepad.png" alt="Project 2">
+                    <div class="overlay">
+                        <h3>Project 2</h3>
+                        <p>Description of Project 2.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container" data-aos="fade-down">
+            <div class="sub-heading-div">
+                <h1 class="sub-heading-txt" data-aos="zoom-in-up">Contact</h1>
+            </div>
+            <form id="contact-form" class="contact-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" data-aos="slide-left" required>
+                <input type="text" id="PhoneNumber" name="PhoneNumber" placeholder="Your Phone Number"
+                    data-aos="slide-right" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" data-aos="slide-left" required>
+                <textarea id="message" name="message" placeholder="Your Message" data-aos="slide-right"
+                    required></textarea>
+                <button type="submit" data-aos="slide-left">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="h2">Get in Touch</p>
+            <div class="footer-content">
+                <div class="icon">
+                    <a class="socialmedia" href="https://www.linkedin.com/in/harsh-vardhanm/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="icon">
+                    <a class="socialmedia" href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="icon">
+                    <a class="socialmedia" href="mailto: officialharshvardhan07@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <div class="icon">
+                    <a class="socialmedia" href="tel:+918979256109"><i class="fa-solid fa-phone"></i></a>
+                </div>
+            </div>
+            <p>&copy; 2024 Harsh Vardhan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- this next script is for animation taken from github LINK:https://github.com/michalsnik/aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500,
+        });
+    </script>
+</body>
+
+</html>
